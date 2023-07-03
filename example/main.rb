@@ -4,7 +4,7 @@ require_relative '../lib/lib'
 
 set :port, 7888
 
-TOKEN = '71fd5414100748eda678e09763122e53'
+TOKEN = 'TOKEN'
 client = OpenApi.new(TOKEN)
 
 def handle_message_normal(event)
